@@ -1,1 +1,17 @@
-[{"id":"7bd9c5cd-86a6-4464-b8ba-b2d41ca17d8a","desc":"Recolectar las piedras del infinito","completadoEn":null},{"id":"a4cd6ebc-d351-46c4-9422-57bdc8cd71d9","desc":"Alma","completadoEn":null},{"id":"4ae5e9f4-8b42-49dc-b514-7d4cbaa79526","desc":"Poder","completadoEn":null},{"id":"63327576-af41-4066-a5d3-0357db65d358","desc":"Realidad","completadoEn":null}]
+[
+    {
+        "id": "a4cd6ebc-d351-46c4-9422-57bdc8cd71d9",
+        "desc": "Alma",
+        "completadoEn": null
+    },
+    {
+        "id": "4ae5e9f4-8b42-49dc-b514-7d4cbaa79526",
+        "desc": "Poder",
+        "completadoEn": "true"
+    },
+    {
+        "id": "63327576-af41-4066-a5d3-0357db65d358",
+        "desc": "Realidad",
+        "completadoEn": null
+    }
+]
