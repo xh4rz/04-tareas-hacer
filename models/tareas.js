@@ -44,6 +44,22 @@ class Tareas {
 			console.log(`${idx} ${desc} :: ${estado}`);
 		});
 	}
+
+	listarPendientesCompletadas(completadas = true) {
+		console.log('\n');
+
+		this.listadoArr
+			.filter((i) => (completadas ? i.completadoEn : !i.completadoEn))
+			.forEach((tarea, i) => {
+				const idx = `${i + 1}.`.green;
+
+				const { desc, completadoEn } = tarea;
+
+				const estado = completadoEn ?? 'Pendiente'.red;
+
+				console.log(`${idx} ${desc} :: ${estado}`);
+			});
+	}
 }
 
 module.exports = Tareas;

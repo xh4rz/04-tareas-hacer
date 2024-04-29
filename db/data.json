@@ -7,11 +7,16 @@
     {
         "id": "4ae5e9f4-8b42-49dc-b514-7d4cbaa79526",
         "desc": "Poder",
-        "completadoEn": "true"
+        "completadoEn": "12345"
     },
     {
         "id": "63327576-af41-4066-a5d3-0357db65d358",
         "desc": "Realidad",
+        "completadoEn": null
+    },
+    {
+        "id": "cc0612e0-4395-4031-a4aa-c9bb29645cdd",
+        "desc": "fuerza",
         "completadoEn": null
     }
 ]
